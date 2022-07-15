@@ -113,7 +113,7 @@ const data = {
     },
     async: {
       loading: '',
-      delay: 200,F
+      delay: 200,
       timeout: 10000
     },
     optimization: {
