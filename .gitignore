@@ -4,6 +4,8 @@ unpackage
 /dist
 src/manifest.json
 src/pages.json
+package-lock.json
+yarn.lock
 
 # local env files
 .env.local

@@ -1,5 +1,5 @@
 {
-  "name": "uni-preset-vue",
+  "name": "<%=localName%>",
   "version": "0.0.0",
   "scripts": {
     "serve": "cross-env VUE_APP_ENV=dev npm run renewal && uni",

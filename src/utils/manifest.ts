@@ -17,8 +17,8 @@ console.log('读取git版本号:' + versionCode)
  * @type {{qa: string, prod: string}}
  */
 const paths = {
-  qa: 'https://schbrain-static-dev.schbrain.com/schbrain/frontend/dingtalk/dingtalk-classlog/' + versionCode + '/build/h5',
-  prod: 'https://schbrain-static-online.schbrain.com/schbrain/frontend/dingtalk/dingtalk-classlog/' + versionCode + '/build/h5'
+  qa: 'https://xxxx-dev.com/' + versionCode + '/build/h5',
+  prod: 'https://xxxx.com/' + versionCode + '/build/h5'
 }
 console.log('当前：' + process.env.VUE_APP_ENV)
 const publicPath = process.env.VUE_APP_ENV === 'online' ? paths.prod : paths.qa
@@ -106,7 +106,7 @@ const data = {
       }
     },
     publicPath: publicPath,
-    title: 'v3-vite-uniapp',
+    title: '<%=localName%>',
     router: {
       mode: 'history',
       base: '/demo'
@@ -129,7 +129,7 @@ const data = {
 }
 
 console.log(`uni-app: publicPath-${
-  process.env.VUE_APP_ENV === 'online' ? '正式环境' : '测试环境' 
+  process.env.VUE_APP_ENV === 'online' ? '正式环境' : '测试环境'
 }:${ publicPath }`)
 fs.writeFile(
   path.join(__dirname, '../manifest.json'),

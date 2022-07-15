@@ -2,7 +2,7 @@ module.exports = [
   {
     path: 'pages/index/index',
     style: {
-      navigationBarTitleText: 'v3-vite-uniapp',
+      navigationBarTitleText: '首页',
       enablePullDownRefresh: true
     }
   }
