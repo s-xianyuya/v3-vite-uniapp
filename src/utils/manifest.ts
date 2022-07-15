@@ -106,7 +106,7 @@ const data = {
       }
     },
     publicPath: publicPath,
-    title: "<%=localName%>",
+    title: '首页',
     router: {
       mode: 'history',
       base: '/demo'
