@@ -106,7 +106,7 @@ const data = {
       }
     },
     publicPath: publicPath,
-    title: '<%=localName%>',
+    title: "<%=localName%>",
     router: {
       mode: 'history',
       base: '/demo'
